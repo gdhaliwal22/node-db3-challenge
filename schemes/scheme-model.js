@@ -34,7 +34,6 @@ function add(scheme) {
     });
 }
 
-//
 function update(changes, id) {
   return db("schemes")
     .update(changes)
